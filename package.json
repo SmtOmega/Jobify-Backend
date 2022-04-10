@@ -1,0 +1,28 @@
+{
+  "name": "Jobify-Backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "Michael",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^6.3.0",
+    "helmet": "^5.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.2",
+    "mongoose": "^6.2.5",
+    "morgan": "^1.10.0",
+    "validator": "^13.7.0",
+    "xss-clean": "^0.1.1"
+  }
+}
